@@ -1,0 +1,63 @@
+Diseño de un Agente Inteligente para la Atención de Clientes de Cotel
+
+1. Introducción
+
+El agente inteligente diseñado para Cotel tiene como objetivo brindar información continua sobre los servicios de Internet, TV y telefonía, así como registrar y gestionar las solicitudes de los clientes. Este agente debe ser capaz de interactuar con los clientes de manera eficiente y eficaz, proporcionando respuestas precisas y actualizadas.
+
+2. Componentes del Agente Inteligente
+
+2.1. Sensores
+- Percepción (P):
+  - Entrada de Texto: El agente debe ser capaz de recibir y procesar texto escrito por los clientes.
+  - Entrada de Voz: Opcionalmente, el agente puede recibir comandos de voz si se integra con un sistema de reconocimiento de voz.
+
+2.2. Procesos Internos
+- Acción (A):
+  - Procesamiento del Lenguaje Natural (NLP): Para entender y responder adecuadamente a las consultas de los clientes.
+  - Base de Conocimiento: Contiene información sobre los servicios de Internet, TV y telefonía ofrecidos por Cotel.
+  - Gestión de Estado: Mantiene un registro de las interacciones pasadas con cada cliente para proporcionar un servicio personalizado.
+  - Motor de Inferencia: Determina la mejor respuesta o acción basada en la entrada del cliente y el estado actual del sistema.
+  - Registro de Solicitudes: Un módulo para registrar y gestionar las solicitudes y consultas de los clientes.
+
+2.3. Efectores
+- Acción (A):
+  - Respuesta de Texto: Enviar respuestas textuales a los clientes.
+  - Respuesta de Voz: Opcionalmente, puede proporcionar respuestas habladas a través de un sistema de síntesis de voz.
+  - Actualización de la Base de Datos: Registrar las solicitudes y actualizar la base de datos con la información proporcionada por los clientes.
+
+3. Funcionalidades del Agente
+
+3.1. Información sobre Servicios
+- Meta (M):
+  - Descripciones de Servicios:
+    - Internet Banda Ancha: Brinda soluciones seguras para acceder a internet bajo grandes velocidades consignadas a las necesidades emergentes de los usuarios.
+    - Cotel TV: Proporciona televisión por cable con la mejor programación para toda la familia, incluyendo películas, deportes, ciencia y cultura, series, novelas, canales infantiles, canales locales, entre otros.
+    - Telefonía: COTEL R.L. ofrece la compra de una acción telefónica que proporciona una línea principal, una línea gemela y una línea trilliza. Este servicio está disponible tanto para personas particulares como para empresas.
+  - Planes y Tarifas:
+    - Internet Banda Ancha: Ofrece planes diseñados en POST y PRE pago, de acuerdo a la necesidad del cliente.
+    - Cotel TV: Informa sobre los diferentes planes y tarifas disponibles para la televisión por cable.
+    - Telefonía Línea Socio: Ofrece una línea fija con tarifa básica mensual que incluye minutos libres mensuales.
+  - Promociones y Ofertas: 
+    - Internet Banda Ancha: Informa sobre promociones y ofertas especiales relacionadas con el servicio de internet.
+    - Cotel TV: Informa sobre promociones y ofertas especiales relacionadas con el servicio de TV cable.
+    - Telefonía: Acceso a todos los servicios que Cotel brinda a sus socios a través de la línea telefónica.
+  - Acceso a Servicios: 
+    - Telefonía: Acceso a todos los servicios que Cotel brinda a sus socios a través de la línea telefónica.
+
+3.2. Registro de Solicitudes
+- Meta (M):
+  - Registro de Nuevas Solicitudes: Permite a los clientes solicitar nuevos servicios de internet banda ancha, televisión por cable o líneas telefónicas.
+  - Actualización de Solicitudes Existentes: Permite a los clientes consultar y actualizar el estado de sus servicios de internet banda ancha, televisión por cable o líneas telefónicas.
+  - Seguimiento de Solicitudes: Envía notificaciones y actualizaciones a los clientes sobre el estado de sus servicios de internet banda ancha, televisión por cable o líneas telefónicas.
+
+4. Arquitectura del Agente
+
+4.1. Entrada y Salida
+- Ambiente (A):
+  - Interfaz de Usuario: Una interfaz de chat accesible desde el sitio web de Cotel o una aplicación móvil.
+  - API de Comunicación: Una API que facilite la comunicación entre el agente y los sistemas backend de Cotel.
+
+4.2. Procesamiento del Lenguaje Natural
+- Acción (A):
+  - Biblioteca NLP: Utilizar una biblioteca como spaCy o NLTK para el procesamiento de texto.
+  - Modelo de Lenguaje: Un
